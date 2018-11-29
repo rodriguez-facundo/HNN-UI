@@ -8,7 +8,7 @@
     "hintText": "",
     "help": "",
     "children": {
-      "L2/3_pyr": {
+      "L2Pyr_rule": {
         "label": "Layer 2/3 pyramidal cell parameters",
         "type": "",
         "default": "",
@@ -35,10 +35,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Soma length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "22.1",
+                    "default": 22.1,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma length",
@@ -46,30 +48,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Soma diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "23.4",
+                    "default": 23.4,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma diameter in microns",
                     "help": "Enter soma diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Soma resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma resistivity in ohm-cm",
                     "help": "",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Soma capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma capacitive density in F/cm2",
@@ -78,7 +86,7 @@
                   }
                 }
               },
-              "apicalDendriteTrunk": {
+              "apical_trunk": {
                 "label": "Apical dendrite trunk section",
                 "type": "",
                 "default": "",
@@ -87,10 +95,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite trunk length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "59.5",
+                    "default": 59.5,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk length",
@@ -98,30 +108,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite trunk diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "4.25",
+                    "default": 4.25,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk diameter in microns",
                     "help": "Enter apical dendrite trunk diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite trunk resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk resistivity in ohm-cm",
                     "help": "Enter apical dendrite trunk resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite trunk capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk capacitive density in F/cm2",
@@ -130,7 +146,7 @@
                   }
                 }
               },
-              "apicaldendrite": {
+              "apical_1": {
                 "label": "Apical dendrite section",
                 "type": "",
                 "default": "",
@@ -139,10 +155,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "306.0",
+                    "default": 306.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite length",
@@ -150,30 +168,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "4.08",
+                    "default": 4.08,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite diameter in microns",
                     "help": "Enter apical dendrite diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite resistivity in ohm-cm",
                     "help": "Enter apical dendrite resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite capacitive density in F/cm2",
@@ -182,7 +206,7 @@
                   }
                 }
               },
-              "apicaldendriteTurf": {
+              "apical_turf": {
                 "label": "Apical dendrite turf section",
                 "type": "",
                 "default": "",
@@ -191,10 +215,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite turf length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "238.0",
+                    "default": 238.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf length",
@@ -202,30 +228,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite turf diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "3.4",
+                    "default": 3.4,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf diameter in microns",
                     "help": "Enter apical dendrite turf diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite turf resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf resistivity in ohm-cm",
                     "help": "Enter apical dendrite turf resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite turf capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf capacitive density in F/cm2",
@@ -234,7 +266,7 @@
                   }
                 }
               },
-              "obliqueApicaldendrite": {
+              "apical_oblique": {
                 "label": "Oblique apical dendrite section",
                 "type": "",
                 "default": "",
@@ -243,10 +275,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
-                    "label": "Oblique apical dendrite length",
+                  "L": {
+                    "L": "Oblique apical dendrite length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "238.0",
+                    "default": 238.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite length",
@@ -254,30 +288,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Oblique apical dendrite diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "3.91",
+                    "default": 3.91,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite diameter in microns",
                     "help": "Enter oblique apical dendrite diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Oblique apical dendrite resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite resistivity in ohm-cm",
                     "help": "Enter oblique apical dendrite resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Oblique apical dendrite capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite capacitive density in F/cm2",
@@ -286,7 +326,7 @@
                   }
                 }
               },
-              "basaldendrite1": {
+              "basal_1": {
                 "label": "Basal dendrite 1 section",
                 "type": "",
                 "default": "",
@@ -295,10 +335,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 1 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "85.0",
+                    "default": 85.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 length",
@@ -306,30 +348,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 1 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "4.25",
+                    "default": 4.25,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 diameter in microns",
                     "help": "Enter basal dendrite 1 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 1 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 resistivity in ohm-cm",
                     "help": "Enter basal dendrite 1 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 1 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 capacitive density in F/cm2",
@@ -338,7 +386,7 @@
                   }
                 }
               },
-              "basaldendrite2": {
+              "basal_2": {
                 "label": "Basal dendrite 2 section",
                 "type": "",
                 "default": "",
@@ -347,10 +395,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 2 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "255.0",
+                    "default": 255.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 2 length",
@@ -358,30 +408,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 2 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "2.72",
+                    "default": 2.72,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 2 diameter in microns",
                     "help": "Enter basal dendrite 2 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 2 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 2 resistivity in ohm-cm",
                     "help": "Enter basal dendrite 2 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 2 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"v\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 2 capacitive density in F/cm2",
@@ -390,7 +446,7 @@
                   }
                 }
               },
-              "basaldendrite3": {
+              "basal_3": {
                 "label": "Basal dendrite 3 section",
                 "type": "",
                 "default": "",
@@ -399,10 +455,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 3 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "255.0",
+                    "default": 255.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 3 length",
@@ -410,30 +468,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 3 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "2.72",
+                    "default": 2.72,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 3 diameter in microns",
                     "help": "Enter basal dendrite 3 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 3 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 3 resistivity in ohm-cm",
                     "help": "Enter basal dendrite 3 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 3 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.6195",
+                    "default": 0.6195,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 3 capacitive density in F/cm2",
@@ -464,8 +528,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"e\"]",
+                    "id": "netParams.synMechParams.e",
                     "type": "float",
-                    "default": "0",
+                    "default": 0.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -474,8 +540,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"tau1\"]",
+                    "id": "netParams.synMechParams.tau1",
                     "type": "float",
-                    "default": "0.5",
+                    "default": 0.5,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -484,8 +552,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"tau2\"]",
+                    "id": "netParams.synMechParams.tau2",
                     "type": "float",
-                    "default": "5",
+                    "default": 5.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -505,8 +575,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"e\"]",
+                    "id": "netParams.synMechParams.e",
                     "type": "float",
-                    "default": "0",
+                    "default": 0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -515,8 +587,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"tau1\"]",
+                    "id": "netParams.synMechParams.tau1",
                     "type": "float",
-                    "default": "1",
+                    "default": 1,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -525,8 +599,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"tau2\"]",
+                    "id": "netParams.synMechParams.tau2",
                     "type": "float",
-                    "default": "20",
+                    "default": 20,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -536,7 +612,7 @@
                 }
               },
               "GABAA": {
-                "label": "AMPA synaptic mechanism",
+                "label": "GABAA synaptic mechanism",
                 "type": "",
                 "default": "",
                 "component": "",
@@ -546,8 +622,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"e\"]",
+                    "id": "netParams.synMechParams.e",
                     "type": "float",
-                    "default": "-80",
+                    "default": -80,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -556,8 +634,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"tau1\"]",
+                    "id": "netParams.synMechParams.tau1",
                     "type": "float",
-                    "default": "0.5",
+                    "default": 0.5,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -566,8 +646,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"tau2\"]",
+                    "id": "netParams.synMechParams.tau2",
                     "type": "float",
-                    "default": "5",
+                    "default": 5.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -577,7 +659,7 @@
                 }
               },
               "GABAB": {
-                "label": "AMPA synaptic mechanism",
+                "label": "GABAB synaptic mechanism",
                 "type": "",
                 "default": "",
                 "component": "",
@@ -587,8 +669,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"e\"]",
+                    "id": "netParams.synMechParams.e",
                     "type": "float",
-                    "default": "-80",
+                    "default": -80.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -597,8 +681,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"tau1\"]",
+                    "id": "netParams.synMechParams.tau1",
                     "type": "float",
-                    "default": "1",
+                    "default": 1.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -607,8 +693,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"tau2\"]",
+                    "id": "netParams.synMechParams.tau2",
                     "type": "float",
-                    "default": "20",
+                    "default": 20.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -648,8 +736,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mech.km.gbar",
+                        "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"km\"][\"gbar\"]",
                         "type": "float",
-                        "default": "250",
+                        "default": 250.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -669,8 +759,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mech.hh2.gkbar",
+                        "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gkbar\"]",
                         "type": "float",
-                        "default": "0.01",
+                        "default": 0.01,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -690,8 +782,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mech.hh2.gnabar",
+                        "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gnabar\"]",
                         "type": "float",
-                        "default": "0.18",
+                        "default": 0.18,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -711,8 +805,10 @@
                     "children": {
                       "reversal": {
                         "label": "Reversal potencial",
+                        "id": "netParams.cellParams.secs.mech.hh2.el",
+                        "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"el\"]",
                         "type": "float",
-                        "default": "-65",
+                        "default": -65,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Reversal potencial in mV",
@@ -721,8 +817,10 @@
                       },
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mech.hh2.gl",
+                        "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gl\"]",
                         "type": "float",
-                        "default": "4.26e-05",
+                        "default": 0.0000426,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -753,8 +851,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "all dendrites share this property in netpyne",
+                        "path": "this prop goes to multiple paths",
                         "type": "float",
-                        "default": "250",
+                        "default": 250.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -766,7 +866,7 @@
                   "Kv": {
                     "label": "Voltage gated potassium channel",
                     "type": "",
-                    "default": "0.01",
+                    "default": "",
                     "component": "Container",
                     "suggestions": "",
                     "hintText": "",
@@ -774,8 +874,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "all dendrites share this property in netpyne",
+                        "path": "this prop goes to multiple paths",
                         "type": "float",
-                        "default": "0.01",
+                        "default": 0.01,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -787,7 +889,7 @@
                   "Na": {
                     "label": "Voltage gated sodium channel",
                     "type": "",
-                    "default": "0.15",
+                    "default": "",
                     "component": "Container",
                     "suggestions": "",
                     "hintText": "",
@@ -795,8 +897,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "all dendrites share this property in netpyne",
+                        "path": "this prop goes to multiple paths",
                         "type": "float",
-                        "default": "0.15",
+                        "default": 0.15,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -816,8 +920,10 @@
                     "children": {
                       "reversal": {
                         "label": "Reversal potencial",
+                        "id": "all dendrites share this property in netpyne",
+                        "path": "this prop goes to multiple paths",
                         "type": "float",
-                        "default": "-65",
+                        "default": -65.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Reversal potencial in mV",
@@ -826,10 +932,12 @@
                       },
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.hh2.gl",
+                        "path": "this prop goes to multiple paths",
                         "type": "float",
-                        "default": "",
+                        "default": 0.0000426,
                         "component": "TextField",
-                        "suggestions": "4.26e-05",
+                        "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
                         "help": "Channel capacitance density in S/cm2",
                         "children": {}
@@ -842,7 +950,7 @@
           }
         }
       },
-      "L5_pyr": {
+      "L5Pyr": {
         "label": "Layer 5 pyramidal cell parameters",
         "type": "",
         "default": "",
@@ -869,10 +977,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Soma length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "39.0",
+                    "default": 39.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma length",
@@ -880,30 +990,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Soma diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "28.9",
+                    "default": 28.9,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma diameter in microns",
                     "help": "Enter soma diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Soma resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma resistivity in ohm-cm",
                     "help": "",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Soma capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter soma capacitive density in F/cm2",
@@ -912,7 +1028,7 @@
                   }
                 }
               },
-              "apicalDendriteTrunk": {
+              "apical_trunk": {
                 "label": "Apical dendrite trunk section",
                 "type": "",
                 "default": "",
@@ -921,10 +1037,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite trunk length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "102.0",
+                    "default": 102.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk length",
@@ -932,30 +1050,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite trunk diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "10.2",
+                    "default": 10.2,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk diameter in microns",
                     "help": "Enter apical dendrite trunk diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite trunk resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk resistivity in ohm-cm",
                     "help": "Enter apical dendrite trunk resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite trunk capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite trunk capacitive density in F/cm2",
@@ -964,7 +1088,7 @@
                   }
                 }
               },
-              "apicaldendrite1": {
+              "apical_1": {
                 "label": "Apical dendrite 1 section",
                 "type": "",
                 "default": "",
@@ -973,10 +1097,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite 1 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "680.0",
+                    "default": 680.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 1 length",
@@ -984,30 +1110,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite 1 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "7.48",
+                    "default": 7.48,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 1 diameter in microns",
                     "help": "Enter apical dendrite 1 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite 1 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 1 resistivity in ohm-cm",
                     "help": "Enter apical dendrite 1 1resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite 1 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 1 capacitive density in F/cm2",
@@ -1016,7 +1148,7 @@
                   }
                 }
               },
-              "apicaldendrite2": {
+              "apical_2": {
                 "label": "Apical dendrite 2 section",
                 "type": "",
                 "default": "",
@@ -1025,10 +1157,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite 2 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical2\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "680.0",
+                    "default": 680.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 2 length",
@@ -1036,30 +1170,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite 2 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical2\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "4.93",
+                    "default": 4.93,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 2 diameter in microns",
                     "help": "Enter apical dendrite 2 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite 2 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical2\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 2 resistivity in ohm-cm",
                     "help": "Enter apical dendrite 2 1resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite 2 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical2\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite 2 capacitive density in F/cm2",
@@ -1068,7 +1208,7 @@
                   }
                 }
               },
-              "apicaldendriteTurf": {
+              "apical_turf": {
                 "label": "Apical dendrite turf section",
                 "type": "",
                 "default": "",
@@ -1077,10 +1217,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Apical dendrite turf length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "425.0",
+                    "default": 425.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf length",
@@ -1088,30 +1230,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Apical dendrite turf diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "3.4",
+                    "default": 3.4,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf diameter in microns",
                     "help": "Enter apical dendrite turf diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Apical dendrite turf resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf resistivity in ohm-cm",
                     "help": "Enter apical dendrite turf resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Apical dendrite turf capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter apical dendrite turf capacitive density in F/cm2",
@@ -1120,7 +1268,7 @@
                   }
                 }
               },
-              "obliqueApicaldendrite": {
+              "apical_oblique": {
                 "label": "Oblique apical dendrite section",
                 "type": "",
                 "default": "",
@@ -1129,10 +1277,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Oblique apical dendrite length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "255.0",
+                    "default": 255.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite length",
@@ -1140,30 +1290,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Oblique apical dendrite diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "5.1",
+                    "default": 5.1,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite diameter in microns",
                     "help": "Enter oblique apical dendrite diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Oblique apical dendrite resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite resistivity in ohm-cm",
                     "help": "Enter oblique apical dendrite resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Oblique apical dendrite capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter oblique apical dendrite capacitive density in F/cm2",
@@ -1172,7 +1328,7 @@
                   }
                 }
               },
-              "basaldendrite1": {
+              "basal_1": {
                 "label": "Basal dendrite 1 section",
                 "type": "",
                 "default": "",
@@ -1181,10 +1337,12 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 1 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"L\"]",
                     "type": "float",
-                    "default": "85.0",
+                    "default": 85.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 length",
@@ -1192,30 +1350,36 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 1 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"diam\"]",
                     "type": "float",
-                    "default": "6.8",
+                    "default": 6.8,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 diameter in microns",
                     "help": "Enter basal dendrite 1 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 1 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"Ra\"]",
                     "type": "float",
-                    "default": "200.0",
+                    "default": 200.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 resistivity in ohm-cm",
                     "help": "Enter basal dendrite 1 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 1 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"cm\"]",
                     "type": "float",
-                    "default": "0.85",
+                    "default": 0.85,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Enter basal dendrite 1 capacitive density in F/cm2",
@@ -1224,7 +1388,7 @@
                   }
                 }
               },
-              "basaldendrite2": {
+              "basal_2": {
                 "label": "Basal dendrite 2 section",
                 "type": "",
                 "default": "",
@@ -1233,8 +1397,10 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 2 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"L\"]",
                     "type": "float",
                     "default": "255.0",
                     "component": "TextField",
@@ -1244,8 +1410,10 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 2 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"diam\"]",
                     "type": "float",
                     "default": "8.5",
                     "component": "TextField",
@@ -1254,8 +1422,10 @@
                     "help": "Enter basal dendrite 2 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 2 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"Ra\"]",
                     "type": "float",
                     "default": "200.0",
                     "component": "TextField",
@@ -1264,8 +1434,10 @@
                     "help": "Enter basal dendrite 2 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 2 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"cm\"]",
                     "type": "float",
                     "default": "0.85",
                     "component": "TextField",
@@ -1276,7 +1448,7 @@
                   }
                 }
               },
-              "basaldendrite3": {
+              "basal_3": {
                 "label": "Basal dendrite 3 section",
                 "type": "",
                 "default": "",
@@ -1285,8 +1457,10 @@
                 "hintText": "",
                 "help": "",
                 "children": {
-                  "length": {
+                  "L": {
                     "label": "Basal dendrite 3 length",
+                    "id": "netParams.cellParams.secs.geom.L",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"L\"]",
                     "type": "float",
                     "default": "255.0",
                     "component": "TextField",
@@ -1296,8 +1470,10 @@
                     "children": {
                     }
                   },
-                  "diameter": {
+                  "diam": {
                     "label": "Basal dendrite 3 diameter",
+                    "id": "netParams.cellParams.secs.geom.diam",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"diam\"]",
                     "type": "float",
                     "default": "8.5",
                     "component": "TextField",
@@ -1306,8 +1482,10 @@
                     "help": "Enter basal dendrite 3 diameter in microns",
                     "children": {}
                   },
-                  "resistivity": {
+                  "Ra": {
                     "label": "Basal dendrite 3 resistivity",
+                    "id": "netParams.cellParams.secs.geom.Ra",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"Ra\"]",
                     "type": "float",
                     "default": "200.0",
                     "component": "TextField",
@@ -1316,8 +1494,10 @@
                     "help": "Enter basal dendrite 3 resistivity in ohm-cm",
                     "children": {}
                   },
-                  "capacitance": {
+                  "cm": {
                     "label": "Basal dendrite 3 capacitive density",
+                    "id": "netParams.cellParams.secs.geom.cm",
+                    "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"cm\"]",
                     "type": "float",
                     "default": "0.85",
                     "component": "TextField",
@@ -1350,8 +1530,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "id": "netParams.synMechParams.e",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"e\"]",
                     "type": "float",
-                    "default": "0",
+                    "default": 0.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -1360,8 +1542,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "id": "netParams.synMechParams.tau1",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"tau1\"]",
                     "type": "float",
-                    "default": "0.5",
+                    "default": 0.5,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -1370,8 +1554,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "id": "netParams.synMechParams.tau2",
+                    "path": "netParams.synMechParams[\"AMPA\"][\"tau2\"]",
                     "type": "float",
-                    "default": "5",
+                    "default": 5.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -1391,8 +1577,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "id": "netParams.synMechParams.e",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"e\"]",
                     "type": "float",
-                    "default": "0",
+                    "default": 0.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -1401,8 +1589,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "id": "netParams.synMechParams.tau1",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"tau1\"]",
                     "type": "float",
-                    "default": "1",
+                    "default": 1.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -1411,8 +1601,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "id": "netParams.synMechParams.tau2",
+                    "path": "netParams.synMechParams[\"NMDA\"][\"tau2\"]",
                     "type": "float",
-                    "default": "20",
+                    "default": 20.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -1432,8 +1624,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "id": "netParams.synMechParams.e",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"e\"]",
                     "type": "float",
-                    "default": "-80",
+                    "default": -80.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -1442,8 +1636,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "id": "netParams.synMechParams.tau1",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"tau1\"]",
                     "type": "float",
-                    "default": "0.5",
+                    "default": 0.5,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -1452,8 +1648,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "id": "netParams.synMechParams.tau2",
+                    "path": "netParams.synMechParams[\"GABAA\"][\"tau2\"]",
                     "type": "float",
-                    "default": "5",
+                    "default": 5.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -1473,8 +1671,10 @@
                 "children": {
                   "reversal": {
                     "label": "Reversal potencial",
+                    "id": "netParams.synMechParams.e",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"e\"]",
                     "type": "float",
-                    "default": "-80",
+                    "default": -80.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Reversal potencial in mV",
@@ -1483,8 +1683,10 @@
                   },
                   "rise": {
                     "label": "Raise time",
+                    "id": "netParams.synMechParams.tau1",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"tau1\"]",
                     "type": "float",
-                    "default": "1",
+                    "default": 1.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Rise time in ms",
@@ -1493,8 +1695,10 @@
                   },
                   "decay": {
                     "label": "Decay time",
+                    "id": "netParams.synMechParams.tau2",
+                    "path": "netParams.synMechParams[\"GABAB\"][\"tau2\"]",
                     "type": "float",
-                    "default": "20",
+                    "default": 20.0,
                     "component": "TextField",
                     "suggestions": "",
                     "hintText": "Decay time",
@@ -1534,8 +1738,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.hh2.gkbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gkbar\"]",
                         "type": "float",
-                        "default": "0.01",
+                        "default": 0.01,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1555,8 +1761,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.hh2.gnabar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gnabar\"]",
                         "type": "float",
-                        "default": "0.14",
+                        "default": 0.14,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1576,8 +1784,10 @@
                     "children": {
                       "reversal": {
                         "label": "Reversal potencial",
+                        "id": "netParams.cellParams.secs.mechs.hh2.el",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"el\"]",
                         "type": "float",
-                        "default": "-71.0",
+                        "default": -71.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Reversal potencial in mV",
@@ -1586,8 +1796,10 @@
                       },
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.hh2.gl",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gl\"]",
                         "type": "float",
-                        "default": "0.0000426",
+                        "default": 0.0000426,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1607,8 +1819,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ca.gbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"ca\"][\"gbar\"]",
                         "type": "float",
-                        "default": "60.0",
+                        "default": 60.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1628,8 +1842,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel time constant",
+                        "id": "netParams.cellParams.secs.mechs.cad.taur",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"cad\"][\"taur\"]",
                         "type": "float",
-                        "default": "20",
+                        "default": 20.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel time decay constant in ms",
@@ -1649,8 +1865,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.kca.gbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"kca\"][\"gbar\"]",
                         "type": "float",
-                        "default": "0.0002",
+                        "default": 0.0002,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1670,8 +1888,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.km.gbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"km\"][\"gbar\"]",
                         "type": "float",
-                        "default": "200",
+                        "default": 200,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1691,8 +1911,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.cat.gbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gbar\"]",
                         "type": "float",
-                        "default": "0.0002",
+                        "default": 0.0002,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1712,8 +1934,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"ar\"][\"gbar\"]",
                         "type": "float",
-                        "default": "0.000001",
+                        "default": 0.000001,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1744,8 +1968,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.01",
+                        "default": 0.01,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1765,8 +1991,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.16",
+                        "default": 0.16,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1786,8 +2014,10 @@
                     "children": {
                       "reversal": {
                         "label": "Reversal potencial",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "-65.0",
+                        "default": -65.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Reversal potencial in mV",
@@ -1796,8 +2026,10 @@
                       },
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.0000426",
+                        "default": 0.0000426,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1817,8 +2049,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "60.0",
+                        "default": 60.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1838,8 +2072,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel time constant",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "20",
+                        "default": 20.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel time decay constant in ms",
@@ -1859,8 +2095,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.0002",
+                        "default": 0.0002,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1880,8 +2118,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "200",
+                        "default": 200.0,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in S/cm2",
@@ -1901,8 +2141,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.0002",
+                        "default": 0.0002,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1922,8 +2164,10 @@
                     "children": {
                       "channelDensity": {
                         "label": "Channel capacitance density",
+                        "id": "netParams.cellParams.secs.mechs.ar.gbar",
+                        "path": "this field go to may netpyne paths",
                         "type": "float",
-                        "default": "0.000001",
+                        "default": 0.000001,
                         "component": "TextField",
                         "suggestions": "",
                         "hintText": "Channel capacitance density in pS/micron2",
@@ -1961,7 +2205,7 @@
           "x": {
             "label": "Number of pyramidal cells (x direction)",
             "type": "int",
-            "default": "10",
+            "default": 10,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Number of cells in X direction",
@@ -1971,7 +2215,7 @@
           "y": {
             "label": "Number of pyramidal cells (y direction)",
             "type": "int",
-            "default": "10",
+            "default": 10,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Number of cells in Y direction",
@@ -1992,7 +2236,7 @@
           "L2/3PyrAMPA": {
             "label": "AMPA connection weight from L2/3 pyr to L2/3 pyr",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS",
@@ -2002,7 +2246,7 @@
           "L2/3PyrNMDA": {
             "label": "NMDA connection weight from L2/3 pyr to L2/3 pyr",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS",
@@ -2012,7 +2256,7 @@
           "L2/3BasketGABAA": {
             "label": "GABAA connection weight from L2/3 basket to L2/3 pyr",
             "type": "float",
-            "default": "0.05",
+            "default": 0.05,
             "component": "TextField",
             "suggestions": "",
             "hintText": "GABAA connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS",
@@ -2022,7 +2266,7 @@
           "L2/3BasketGABAB": {
             "label": "GABAB connection weight from L2/3 basket to L2/3 pyr",
             "type": "float",
-            "default": "0.05",
+            "default": 0.05,
             "component": "TextField",
             "suggestions": "",
             "hintText": "GABAB connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS",
@@ -2043,7 +2287,7 @@
           "L2/3Pyr": {
             "label": "Connection weight from L2/3 pyr to L5 pyr",
             "type": "float",
-            "default": "0.00025",
+            "default": 0.00025,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L2/3 pyramidal cells to L5 pyramidal cells in uS",
@@ -2053,7 +2297,7 @@
           "L2/3Basket": {
             "label": "Connection weight from L2/3 basket to L5 pyr",
             "type": "float",
-            "default": "0.001",
+            "default": 0.001,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L2/3 basket cells to L5 pyramidal cells in uS",
@@ -2063,7 +2307,7 @@
           "L5PyrAMPA": {
             "label": "AMPA connection weight from L5 pyr to 5 pyr",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA connection weight from L5 pyramidal cells to L5 pyramidal cells in uS",
@@ -2073,7 +2317,7 @@
           "L5PyrNMDA": {
             "label": "NMDA connection weight from L5 pyr to L5 pyr",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA connection weight from L2/3 pyramidal cells to L5 pyramidal cells in uS",
@@ -2083,7 +2327,7 @@
           "L5BasketGABAA": {
             "label": "GABAA connection weight from L5 basket to 5 pyr",
             "type": "float",
-            "default": "0.025",
+            "default": 0.025,
             "component": "TextField",
             "suggestions": "",
             "hintText": "GABAA connection weight from L5 basket cells to L5 pyramidal cells in uS",
@@ -2093,7 +2337,7 @@
           "L5BasketGABAB": {
             "label": "GABAB connection weight from L5 basket to L5 pyr",
             "type": "float",
-            "default": "0.025",
+            "default": 0.025,
             "component": "TextField",
             "suggestions": "",
             "hintText": "GABAB connection weight from L2/3 basket cells to L5 pyramidal cells in uS",
@@ -2114,7 +2358,7 @@
           "L2/3Pyr": {
             "label": "Connection weight from L2/3 pyr to L2/3 basket",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L2/3 pyramidal cells to L2/3 basket cells in uS",
@@ -2124,7 +2368,7 @@
           "L2/3Basket": {
             "label": "Connection weight from L2/3 basket to L2/3 basket",
             "type": "float",
-            "default": "0.02",
+            "default": 0.02,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L2/3 basket cells to L2/3 basket cells in uS",
@@ -2145,7 +2389,7 @@
           "L2/3Pyr": {
             "label": "Connection weight from L2/3 pyr to L5 basket",
             "type": "float",
-            "default": "0.00025",
+            "default": 0.00025,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L2/3 pyramidal cells to L5 basket cells in uS",
@@ -2155,7 +2399,7 @@
           "L5pyr": {
             "label": "Connection weight from L5 pyr to L5 basket",
             "type": "float",
-            "default": "0.0005",
+            "default": 0.0005,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L5 pyramidal cells to L5 basket cells in uS",
@@ -2165,7 +2409,7 @@
           "L2/3Basket": {
             "label": "Connection weight from L5 basket to L5 basket",
             "type": "float",
-            "default": "0.02",
+            "default": 0.02,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Connection weight from L5 basket cells to L5 basket cells in uS",
@@ -2188,7 +2432,7 @@
       "E->E": {
         "label": "Excitatory to Excitatory synaptic gain",
         "type": "float",
-        "default": "1.0",
+        "default": 1.0,
         "component": "TextField",
         "suggestions": "",
         "hintText": "Excitatory to Excitatory synaptic gain",
@@ -2198,7 +2442,7 @@
       "E->I": {
         "label": "Excitatory to inhibitory synaptic gain",
         "type": "float",
-        "default": "1.0",
+        "default": 1.0,
         "component": "TextField",
         "suggestions": "",
         "hintText": "Excitatory to inhibitory synaptic gain",
@@ -2208,7 +2452,7 @@
       "I->E": {
         "label": "Inhibitory to Excitatory synaptic gain",
         "type": "float",
-        "default": "1.0",
+        "default": 1.0,
         "component": "TextField",
         "suggestions": "",
         "hintText": "Inhibitory to Excitatory synaptic gain",
@@ -2218,7 +2462,7 @@
       "I->I": {
         "label": "Inhibitory to inhibitory synaptic gain",
         "type": "float",
-        "default": "1.0",
+        "default": 1.0,
         "component": "TextField",
         "suggestions": "",
         "hintText": "Inhibitory to inhibitory synaptic gain",
@@ -2248,7 +2492,7 @@
           "startMean": {
             "label": "Start time mean",
             "type": "float",
-            "default": "1000.0",
+            "default": 1000.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set start time mean in ms",
@@ -2258,7 +2502,7 @@
           "startStd": {
             "label": "Start time standard deviation",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set start time standard deviation in ms",
@@ -2268,7 +2512,7 @@
           "stop": {
             "label": "Stop time",
             "type": "float",
-            "default": "1001.0",
+            "default": 1001.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set stop time ms",
@@ -2278,7 +2522,7 @@
           "burstFq": {
             "label": "Set burst frequency",
             "type": "float",
-            "default": "10.0",
+            "default": 10.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set burst frequency in Hz",
@@ -2288,7 +2532,7 @@
           "burstStd": {
             "label": "Set burst standart deviation",
             "type": "float",
-            "default": "20.0",
+            "default": 20.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set burst standard deviation in ms",
@@ -2298,7 +2542,7 @@
           "spikesPerBurst": {
             "label": "Set spikes per burst",
             "type": "int",
-            "default": "2",
+            "default": 2,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set the number of spikes per burst",
@@ -2308,7 +2552,7 @@
           "burstsNumber": {
             "label": "Set number of burst",
             "type": "int",
-            "default": "10",
+            "default": 10,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set the total number of burst",
@@ -2329,7 +2573,7 @@
           "pyrAMPA": {
             "label": "AMPA input connection weight to layer 2/3 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 2/3 pyr cells in uS",
@@ -2339,7 +2583,7 @@
           "pyrNMDA": {
             "label": "NMDA input connection weight to layer 2/3 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 2/3 pyr cells in uS",
@@ -2349,7 +2593,7 @@
           "basketAMPA": {
             "label": "AMPA input connection weight to layer 2/3 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 2/3 basket cells in uS",
@@ -2359,7 +2603,7 @@
           "basketNMDA": {
             "label": "NMDA input connection weight to layer 2/3 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 2/3 basket cells in uS",
@@ -2369,7 +2613,7 @@
           "delay": {
             "label": "Input connection delay to layer 2/3 cells",
             "type": "float",
-            "default": "0.1",
+            "default": 0.1,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Input connection delay to layer 2/3 cells in uS",
@@ -2390,7 +2634,7 @@
           "pyrAMPA": {
             "label": "AMPA input connection weight to layer 5 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 5 pyr cells in uS",
@@ -2400,7 +2644,7 @@
           "pyrNMDA": {
             "label": "NMDA input connection weight to layer 5 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 5 pyr cells in uS",
@@ -2410,7 +2654,7 @@
           "basketAMPA": {
             "label": "AMPA input connection weight to layer 5 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 5 basket cells in uS",
@@ -2420,7 +2664,7 @@
           "basketNMDA": {
             "label": "NMDA input connection weight to layer 5 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 5 basket cells in uS",
@@ -2430,7 +2674,7 @@
           "delay": {
             "label": "Input connection delay to layer 5 cells",
             "type": "float",
-            "default": "1",
+            "default": 1.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Input connection delay to layer 5 cells in uS",
@@ -2462,7 +2706,7 @@
           "startMean": {
             "label": "Start time mean",
             "type": "float",
-            "default": "1000.0",
+            "default": 1000.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set start time mean in ms",
@@ -2472,7 +2716,7 @@
           "startStd": {
             "label": "Start time standard deviation",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set start time standard deviation in ms",
@@ -2482,7 +2726,7 @@
           "stop": {
             "label": "Stop time",
             "type": "float",
-            "default": "1001.0",
+            "default": 1001.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set stop time ms",
@@ -2492,7 +2736,7 @@
           "burstFq": {
             "label": "Set burst frequency",
             "type": "float",
-            "default": "10.0",
+            "default": 10.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set burst frequency in Hz",
@@ -2502,7 +2746,7 @@
           "burstStd": {
             "label": "Set burst standart deviation",
             "type": "float",
-            "default": "20.0",
+            "default": 20.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set burst standard deviation in ms",
@@ -2512,7 +2756,7 @@
           "spikesPerBurst": {
             "label": "Set spikes per burst",
             "type": "int",
-            "default": "2",
+            "default": 2,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set the number of spikes per burst",
@@ -2522,7 +2766,7 @@
           "burstsNumber": {
             "label": "Set number of burst",
             "type": "int",
-            "default": "10",
+            "default": 10,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set the total number of burst",
@@ -2543,7 +2787,7 @@
           "pyrAMPA": {
             "label": "AMPA input connection weight to layer 2/3 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 2/3 pyr cells in uS",
@@ -2553,7 +2797,7 @@
           "pyrNMDA": {
             "label": "NMDA input connection weight to layer 2/3 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 2/3 pyr cells in uS",
@@ -2563,7 +2807,7 @@
           "basketAMPA": {
             "label": "AMPA input connection weight to layer 2/3 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 2/3 basket cells in uS",
@@ -2573,7 +2817,7 @@
           "basketNMDA": {
             "label": "NMDA input connection weight to layer 2/3 basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 2/3 basket cells in uS",
@@ -2583,7 +2827,7 @@
           "delay": {
             "label": "Input connection delay to layer 2/3 cells",
             "type": "float",
-            "default": "0.1",
+            "default": 0.1,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Input connection delay to layer 2/3 cells in uS",
@@ -2604,7 +2848,7 @@
           "pyrAMPA": {
             "label": "AMPA input connection weight to layer 5 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "AMPA input connection weight to layer 5 pyr cells in uS",
@@ -2614,7 +2858,7 @@
           "pyrNMDA": {
             "label": "NMDA input connection weight to layer 5 pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "NMDA input connection weight to layer 5 pyr cells in uS",
@@ -2624,7 +2868,7 @@
           "delay": {
             "label": "Input connection delay to layer 5 cells",
             "type": "float",
-            "default": "5.0",
+            "default": 5.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Input connection delay to layer 5 cells in uS",
@@ -2656,7 +2900,7 @@
           "pyrAMPA": {
             "label": "AMPA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 2/3 pyramidal cells in uS",
@@ -2666,7 +2910,7 @@
           "pyrNMDA": {
             "label": "NMDA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 2/3 pyramidal cells in uS",
@@ -2676,7 +2920,7 @@
           "pyrFreq": {
             "label": "Set frequency",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 2/3 pyramidal cells in Hz",
@@ -2686,7 +2930,7 @@
           "basketAMPA": {
             "label": "AMPA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 2/3 basket cells in uS",
@@ -2696,7 +2940,7 @@
           "basketNMDA": {
             "label": "NMDA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 2/3 basket cells in uS",
@@ -2706,7 +2950,7 @@
           "basketFreq": {
             "label": "Set frequency",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 2/3 basket cells in Hz",
@@ -2727,7 +2971,7 @@
           "pyrAMPA": {
             "label": "AMPA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 5 pyramidal cells in uS",
@@ -2737,7 +2981,7 @@
           "pyrNMDA": {
             "label": "NMDA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 5 pyramidal cells in uS",
@@ -2747,7 +2991,7 @@
           "pyrFreq": {
             "label": "Set frequency",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 5 pyramidal cells in Hz",
@@ -2757,7 +3001,7 @@
           "basketAMPA": {
             "label": "AMPA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 5 basket cells in uS",
@@ -2767,7 +3011,7 @@
           "basketNMDA": {
             "label": "NMDA connection weight",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 5 basket cells in uS",
@@ -2777,7 +3021,7 @@
           "basketFreq": {
             "label": "Set frequency",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 5 basket cells in Hz",
@@ -2798,7 +3042,7 @@
           "start": {
             "label": "Set starting time",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input start time in ms",
@@ -2808,7 +3052,7 @@
           "stop": {
             "label": "Set stop time",
             "type": "float",
-            "default": "-1.0",
+            "default": -1.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input stop time in ms",
@@ -2840,7 +3084,7 @@
           "pyrAmplitud": {
             "label": "Set input current for pyramidal cells in nA",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input current for layer 2/3 pyramidal cells in nA",
@@ -2850,7 +3094,7 @@
           "pyrStartTime": {
             "label": "Set input start time for pyr cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input start time for layer 2/3 pyramidal cells in ms",
@@ -2860,7 +3104,7 @@
           "pyrStopTime": {
             "label": "Set input stop time for pyr cells",
             "type": "float",
-            "default": "-1.0",
+            "default": -1.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input stop time for layer 2/3 pyramidal cells in ms",
@@ -2870,7 +3114,7 @@
           "basketAmplitud": {
             "label": "Set input current for basket cells in nA",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 2/3 basket cells in uS",
@@ -2880,7 +3124,7 @@
           "basketStartTime": {
             "label": "Set input start time for basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 2/3 basket cells in uS",
@@ -2890,7 +3134,7 @@
           "basketStopTime": {
             "label": "Set input stop time for basket cells",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 2/3 basket cells in Hz",
@@ -2911,7 +3155,7 @@
           "pyrAmplitud": {
             "label": "Set input current for pyramidal cells in nA",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input current for layer 5 pyramidal cells in nA",
@@ -2921,7 +3165,7 @@
           "pyrStartTime": {
             "label": "Set input start time for pyramidal cell",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input start time for layer 5 pyramidal cells in ms",
@@ -2931,7 +3175,7 @@
           "pyrStopTime": {
             "label": "Set input stop time for pyramidal cell",
             "type": "float",
-            "default": "-1.0",
+            "default": -1.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input stop time for layer 5 pyramidal cells in ms",
@@ -2941,7 +3185,7 @@
           "basketAmplitud": {
             "label": "Set input current for basket cells in nA",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input AMPA connection weight for Layer 5 basket cells in uS",
@@ -2951,7 +3195,7 @@
           "basketStartTime": {
             "label": "Set input start time for pyramidal cell",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set input NMDA connection weight for Layer 5 basket cells in uS",
@@ -2961,7 +3205,7 @@
           "basketStopTime": {
             "label": "Set input stop time for pyramidal cell",
             "type": "float",
-            "default": "0.0",
+            "default": 0.0,
             "component": "TextField",
             "suggestions": "",
             "hintText": "Set frequency of poisson distribution for Layer 5 basket cells in Hz",
