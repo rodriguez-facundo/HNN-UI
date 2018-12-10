@@ -1,0 +1,33 @@
+{
+  "id": "evokedInputs",
+  "label": "Set evoked inputs",
+  "help": "",
+  "hintText": "",
+  "component": "To be define",
+  "children": [
+    {
+      "id": "synchronousInputs",
+      "label": "Synchronous inputs",
+      "field_type": "bool",
+      "default": false,
+      "component": "Checkbox",
+      "hintText": "Increment start time (ms)",
+      "help": "Increment start time (ms)"
+    },
+    {
+      "id": "incrementStartTime",
+      "label": "Increment start time (ms)",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Increment start time (ms)",
+      "help": "Increment start time (ms)"
+    },
+    {
+      "field_type": "proximalInput"
+    },
+    {
+      "field_type": "distalInput"
+    }
+  ]
+}

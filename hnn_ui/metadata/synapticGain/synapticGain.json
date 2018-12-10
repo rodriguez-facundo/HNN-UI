@@ -1,0 +1,47 @@
+{
+  "label": "Synaptic gains",
+  "component": "Card",
+  "hintText": "Define here the synaptic gains",
+  "help": "",
+  "children": [
+    {
+      "id": "E->E",
+      "label": "Excitatory to Excitatory synaptic gain",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Excitatory to Excitatory synaptic gain",
+      "help": "Excitatory to Excitatory synaptic gain",
+      "children":{}
+    },
+    {
+      "id": "E->I",
+      "label": "Excitatory to inhibitory synaptic gain",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Excitatory to inhibitory synaptic gain",
+      "help": "Excitatory to inhibitory synaptic gain",
+      "children":{}
+    },
+    {
+      "id": "I->E",
+      "label": "Inhibitory to Excitatory synaptic gain",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Inhibitory to Excitatory synaptic gain",
+      "help": "Inhibitory to Excitatory synaptic gain",
+      "children":{}
+    },
+    {
+      "id": "I->I",
+      "label": "Inhibitory to inhibitory synaptic gain",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Inhibitory to inhibitory synaptic gain",
+      "help": "Inhibitory to inhibitory synaptic gain"
+    }
+  ]
+}

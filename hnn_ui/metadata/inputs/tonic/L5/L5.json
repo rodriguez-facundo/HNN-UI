@@ -1,0 +1,63 @@
+{
+  "id": "layer5",
+  "label": "Set input parameters for layer 5 cells",
+  "component": "Thumbnail",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "pyrAmplitud",
+      "label": "Set input current for pyramidal cells in nA",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input current for layer 5 pyramidal cells in nA",
+      "help": "Set input current for layer 5 pyramidal cells in nA"
+    },
+    {
+      "id": "pyrStartTime",
+      "label": "Set input start time for pyramidal cell",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input start time for layer 5 pyramidal cells in ms",
+      "help": "Set input start time for layer 5 pyramidal cells in ms"
+    },
+    {
+      "id": "pyrStopTime",
+      "label": "Set input stop time for pyramidal cell",
+      "field_type": "float",
+      "default": -1.0,
+      "component": "TextField",
+      "hintText": "Set input stop time for layer 5 pyramidal cells in ms",
+      "help": "Set input stop time for layer 5 pyramidal cells in ms"
+    },
+    {
+      "id": "basketAmplitud",
+      "label": "Set input current for basket cells in nA",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input AMPA connection weight for Layer 5 basket cells in uS",
+      "help": "Set input AMPA connection weight for Layer 5 basket cells in uS"
+    },
+    {
+      "id": "basketStartTime",
+      "label": "Set input start time for pyramidal cell",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input NMDA connection weight for Layer 5 basket cells in uS",
+      "help": "Set input NMDA connection weight for Layer 5 basket cells in uS"
+    },
+    {
+      "id": "basketStopTime",
+      "label": "Set input stop time for pyramidal cell",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set frequency of poisson distribution for Layer 5 basket cells in Hz",
+      "help": "Set frequency of poisson distribution for Layer 5 basket cells in Hz"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "biophysics",
+  "label": "Layer 5 biophysical cell properties",
+  "component": "BottomNavigationAction",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "label": "Soma voltage gated potassium channel capacitance density (kv)",
+      "id": "netParams.cellParams.secs.mechs.hh2.gkbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gkbar\"]",
+      "field_type": "float",
+      "default": 0.01,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma voltage gated sodium channel capacitance density (Na)",
+      "id": "netParams.cellParams.secs.mechs.hh2.gnabar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gnabar\"]",
+      "field_type": "float",
+      "default": 0.14,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma leak current reversal potencial",
+      "id": "netParams.cellParams.secs.mechs.hh2.el",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"el\"]",
+      "field_type": "float",
+      "default": -71.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "Soma leak current channel capacitance density",
+      "id": "netParams.cellParams.secs.mechs.hh2.gl",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gl\"]",
+      "field_type": "float",
+      "default": 0.0000426,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma voltage gated calcium channel capacitance density (Ca)",
+      "id": "netParams.cellParams.secs.mechs.ca.gbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"ca\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 60.0,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Soma calcium concentration decay channel time constant (Cad)",
+      "id": "netParams.cellParams.secs.mechs.cad.taur",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"cad\"][\"taur\"]",
+      "field_type": "float",
+      "default": 20.0,
+      "component": "TextField",
+      "hintText": "Channel time decay constant in ms",
+      "help": "Channel time decay constant in ms"
+    },
+    {
+      "label": "Soma calcium dependant Potassium channel capacitance density (KCa)",
+      "id": "netParams.cellParams.secs.mechs.kca.gbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"kca\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 0.0002,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Soma potassium channel capacitance density (Km)",
+      "id": "netParams.cellParams.secs.mechs.km.gbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"km\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 200,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma calcium low threshold channel capacitance density (CaT)",
+      "id": "netParams.cellParams.secs.mechs.cat.gbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 0.0002,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Soma anomalous rectifier current channel capacitance density (HCN)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "netParams.cellParams[\"L5Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"ar\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 0.000001,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Dendrite voltage gated potassium channel capacitance density (Kv)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.01,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrite voltage gated sodium channel capacitance density (Na)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.16,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrite leak current reversal potencial",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": -65.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "Dendrite leak current channel capacitance density",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.0000426,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrite voltage gated calcium channel capacitance density (Ca)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 60.0,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Dendrite calcium concentration decay channel time constant (Cad)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 20.0,
+      "component": "TextField",
+      "hintText": "Channel time decay constant in ms",
+      "help": "Channel time decay constant in ms"
+    },
+    {
+      "label": "Dendrite calcium dependant Potassium channel capacitance density (KCa)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.0002,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2"
+    },
+    {
+      "label": "Dendrite potassium channel capacitance density (Km)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2",
+      "children": {}
+    },
+    {
+      "label": "Dendrite calcium low threshold channel capacitance density (CaT)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.0002,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2",
+      "children": {}
+    },
+    {
+      "label": "Dendrite Anomalous rectifier current channel capacitance density (HCN)",
+      "id": "netParams.cellParams.secs.mechs.ar.gbar",
+      "path": "this field go to may netpyne paths",
+      "field_type": "float",
+      "default": 0.000001,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in pS/micron2",
+      "help": "Channel capacitance density in pS/micron2",
+      "children": {}
+    }
+  ]
+}

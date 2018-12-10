@@ -1,0 +1,88 @@
+{
+  "id": "distalInput",
+  "label": "Distal input",
+  "component": "item",
+  "children": [
+    {
+      "id": "startTimeMean",
+      "label": "Start time mean (ms)",
+      "default": 63.53,
+      "help": "Start time mean (ms)",
+      "hintText": "Start time mean (ms)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "stopTimeStd",
+      "label": "Stop time stddev (ms)",
+      "default": 3.85,
+      "help": "Stop time stddev (ms)",
+      "hintText": "Stop time stddev (ms)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "numberOfSpikes",
+      "label": "Number of spikes",
+      "default": 1,
+      "help": "Number of spikes",
+      "hintText": "Number of spikes",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L2PyrAMPAWeight",
+      "label": "Layer 2/3 pyramidal cell AMPA weight (uS)",
+      "default": 0.000007,
+      "help": "Layer 2/3 pyramidal cell AMPA weight (uS)",
+      "hintText": "Layer 2/3 pyramidal cell AMPA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L2PyrNMDAWeight",
+      "label": "Layer 2/3 pyramidal cell NMDA weight (uS)",
+      "default": 0.004317,
+      "help": "Layer 2/3 pyramidal cell NMDA weight (uS)",
+      "hintText": "Layer 2/3 pyramidal cell NMDA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L2BasketAMPAWeight",
+      "label": "Layer 2/3 basket cell AMPA weight (uS)",
+      "default": 0.006562,
+      "help": "Layer 2/3 basket cell AMPA weight (uS)",
+      "hintText": "Layer 2/3 basket cell AMPA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L2BasketNMDAWeight",
+      "label": "Layer 2/3 basket cell NMDA weight (uS)",
+      "default": 0.019482,
+      "help": "Layer 2/3 basket cell NMDA weight (uS)",
+      "hintText": "Layer 2/3 basket cell NMDA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L5PyrAMPAWeight",
+      "label": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "default": 0.142300,
+      "help": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "hintText": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    },
+    {
+      "id": "L5PyrAMPAWeight",
+      "label": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "default": 0.080074,
+      "help": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "hintText": "Layer 5 pyramidal cell AMPA weight (uS)",
+      "component": "textField",
+      "field_type": "float"
+    }
+  ]
+}

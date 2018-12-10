@@ -1,0 +1,54 @@
+{
+  "id": "layer2/3",
+  "label": "Set input connection weights to layer 2/3 cells",
+  "component": "Container",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "pyrAMPA",
+      "label": "AMPA input connection weight to layer 2/3 pyr cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "AMPA input connection weight to layer 2/3 pyr cells in uS",
+      "help": "AMPA input connection weight to layer 2/3 pyr cells in uS"
+    },
+    {
+      "id": "pyrNMDA",
+      "label": "NMDA input connection weight to layer 2/3 pyr cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "NMDA input connection weight to layer 2/3 pyr cells in uS",
+      "help": "NMDA input connection weight to layer 2/3 pyr cells in uS"
+    },
+    {
+      "id": "basketAMPA",
+      "label": "AMPA input connection weight to layer 2/3 basket cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "AMPA input connection weight to layer 2/3 basket cells in uS",
+      "help": "AMPA input connection weight to layer 2/3 basket cells in uS"
+    },
+    {
+      "id": "basketNMDA",
+      "label": "NMDA input connection weight to layer 2/3 basket cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "NMDA input connection weight to layer 2/3 basket cells in uS",
+      "help": "NMDA input connection weight to layer 2/3 basket cells in uS"
+    },
+    {
+      "id": "delay",
+      "label": "Input connection delay to layer 2/3 cells",
+      "field_type": "float",
+      "default": 0.1,
+      "component": "TextField",
+      "hintText": "Input connection delay to layer 2/3 cells in uS",
+      "help": "Input connection delay to layer 2/3 cells in uS"
+    }
+  ]
+}

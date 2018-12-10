@@ -1,0 +1,63 @@
+{
+  "id": "layer5",
+  "label": "Set input parameters for layer 5 cells",
+  "component": "Thumbnail",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "pyrAMPA",
+      "label": "AMPA connection weight",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input AMPA connection weight for Layer 5 pyramidal cells in uS",
+      "help": "Set input AMPA connection weight for Layer 5 pyramidal cells in uS"
+    },
+    {
+      "id": "pyrNMDA",
+      "label": "NMDA connection weight",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input NMDA connection weight for Layer 5 pyramidal cells in uS",
+      "help": "Set input NMDA connection weight for Layer 5 pyramidal cells in uS"
+    },
+    {
+      "id": "pyrFreq",
+      "label": "Set frequency",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set frequency of poisson distribution for Layer 5 pyramidal cells in Hz",
+      "help": "Set frequency of poisson distribution for Layer 5 pyramidal cells in Hz"
+    },
+    {
+      "id": "basketAMPA",
+      "label": "AMPA connection weight",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input AMPA connection weight for Layer 5 basket cells in uS",
+      "help": "Set input AMPA connection weight for Layer 5 basket cells in uS"
+    },
+    {
+      "id": "basketNMDA",
+      "label": "NMDA connection weight",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input NMDA connection weight for Layer 5 basket cells in uS",
+      "help": "Set input NMDA connection weight for Layer 5 basket cells in uS"
+    },
+    {
+      "id": "basketFreq",
+      "label": "Set frequency",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set frequency of poisson distribution for Layer 5 basket cells in Hz",
+      "help": "Set frequency of poisson distribution for Layer 5 basket cells in Hz"
+    }
+  ]
+}

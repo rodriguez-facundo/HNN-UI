@@ -1,0 +1,72 @@
+{
+  "id": "timing",
+  "label": "Set time related variables",
+  "component": "Container",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "startMean",
+      "label": "Start time mean",
+      "field_type": "float",
+      "default": 1000.0,
+      "component": "TextField",
+      "hintText": "Set start time mean in ms",
+      "help": "Set start time mean in ms"
+    },
+    {
+      "id": "startStd",
+      "label": "Start time standard deviation",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set start time standard deviation in ms",
+      "help": "Set start time standard deviation in ms"
+    },
+    {
+      "id": "stop",
+      "label": "Stop time",
+      "field_type": "float",
+      "default": 1001.0,
+      "component": "TextField",
+      "hintText": "Set stop time ms",
+      "help": "Set stop time ms"
+    },
+    {
+      "id": "burstFq",
+      "label": "Set burst frequency",
+      "field_type": "float",
+      "default": 10.0,
+      "component": "TextField",
+      "hintText": "Set burst frequency in Hz",
+      "help": "Set burst frequency in Hz"
+    },
+    {
+      "id": "burstStd",
+      "label": "Set burst standart deviation",
+      "field_type": "float",
+      "default": 20.0,
+      "component": "TextField",
+      "hintText": "Set burst standard deviation in ms",
+      "help": "Set burst standard deviation in ms"
+    },
+    {
+      "id": "spikesPerBurst",
+      "label": "Set spikes per burst",
+      "field_type": "int",
+      "default": 2,
+      "component": "TextField",
+      "hintText": "Set the number of spikes per burst",
+      "help": "Set the number of spikes per burst"
+    },
+    {
+      "id": "burstsNumber",
+      "label": "Set number of burst",
+      "field_type": "int",
+      "default": 10,
+      "component": "TextField",
+      "hintText": "Set the total number of burst",
+      "help": "Set the total number of burst"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "synapses",
+  "label": "Layer 5 synaptic cell properties",
+  "component": "BottomNavigationAction",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "label": "AMPA reversal potencial",
+      "id": "netParams.synMechParams.e",
+      "path": "netParams.synMechParams[\"AMPA\"][\"e\"]",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "AMPA raise time",
+      "id": "netParams.synMechParams.tau1",
+      "path": "netParams.synMechParams[\"AMPA\"][\"tau1\"]",
+      "field_type": "float",
+      "default": 0.5,
+      "component": "TextField",
+      "hintText": "Rise time in ms",
+      "help": "Rise time in ms"
+    },
+    {
+      "label": "AMPA decay time",
+      "id": "netParams.synMechParams.tau2",
+      "path": "netParams.synMechParams[\"AMPA\"][\"tau2\"]",
+      "field_type": "float",
+      "default": 5.0,
+      "component": "TextField",
+      "hintText": "Decay time",
+      "help": "Decay time"
+    },
+    {
+      "label": "NMDA reversal potencial",
+      "id": "netParams.synMechParams.e",
+      "path": "netParams.synMechParams[\"NMDA\"][\"e\"]",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "NMDA raise time",
+      "id": "netParams.synMechParams.tau1",
+      "path": "netParams.synMechParams[\"NMDA\"][\"tau1\"]",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Rise time in ms",
+      "help": "Rise time in ms"
+    },
+    {
+      "label": "NMDA decay time",
+      "id": "netParams.synMechParams.tau2",
+      "path": "netParams.synMechParams[\"NMDA\"][\"tau2\"]",
+      "field_type": "float",
+      "default": 20.0,
+      "component": "TextField",
+      "hintText": "Decay time",
+      "help": "Decay time"
+    },
+    {
+      "label": "GABAA reversal potencial",
+      "id": "netParams.synMechParams.e",
+      "path": "netParams.synMechParams[\"GABAA\"][\"e\"]",
+      "field_type": "float",
+      "default": -80.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "GABAA raise time",
+      "id": "netParams.synMechParams.tau1",
+      "path": "netParams.synMechParams[\"GABAA\"][\"tau1\"]",
+      "field_type": "float",
+      "default": 0.5,
+      "component": "TextField",
+      "hintText": "Rise time in ms",
+      "help": "Rise time in ms"
+    },
+    {
+      "label": "GABAA decay time",
+      "id": "netParams.synMechParams.tau2",
+      "path": "netParams.synMechParams[\"GABAA\"][\"tau2\"]",
+      "field_type": "float",
+      "default": 5.0,
+      "component": "TextField",
+      "hintText": "Decay time",
+      "help": "Decay time"
+    },
+    {
+      "label": "GABAA reversal potencial",
+      "id": "netParams.synMechParams.e",
+      "path": "netParams.synMechParams[\"GABAB\"][\"e\"]",
+      "field_type": "float",
+      "default": -80.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "GABAA raise time",
+      "id": "netParams.synMechParams.tau1",
+      "path": "netParams.synMechParams[\"GABAB\"][\"tau1\"]",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Rise time in ms",
+      "help": "Rise time in ms"
+    },
+    {
+      "label": "GABAA decay time",
+      "id": "netParams.synMechParams.tau2",
+      "path": "netParams.synMechParams[\"GABAB\"][\"tau2\"]",
+      "field_type": "float",
+      "default": 20.0,
+      "component": "TextField",
+      "hintText": "Decay time",
+      "help": "Decay time"
+    }
+  ]
+}

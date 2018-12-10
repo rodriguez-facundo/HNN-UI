@@ -1,0 +1,27 @@
+{
+  "id": "cells",
+  "label": "Define number of cells",
+  "component": "Thumbnail",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "x",
+      "label": "Number of pyramidal cells (x direction)",
+      "field_type": "int",
+      "default": 10,
+      "component": "TextField",
+      "hintText": "Number of cells in X direction",
+      "help": "Define the number of pyramidal cells in the X direction"
+    },
+    {
+      "id": "y",
+      "label": "Number of pyramidal cells (y direction)",
+      "field_type": "int",
+      "default": 10,
+      "component": "TextField",
+      "hintText": "Number of cells in Y direction",
+      "help": "Define the number of pyramidal cells in the Y direction"
+    }
+  ]
+}

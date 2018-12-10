@@ -1,0 +1,329 @@
+{
+  "id": "geometry",
+  "label": "Geometric cell properties",
+  "component": "BottomNavigationAction",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "label": "Soma length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 22.1,
+      "component": "TextField",
+      "hintText": "Enter soma length",
+      "help": "Enter soma length in microns"
+    },
+    {
+      "label": "Soma diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 23.4,
+      "component": "TextField",
+      "hintText": "Enter soma diameter in microns",
+      "help": "Enter soma diameter in microns"
+    },
+    {
+      "label": "Soma resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter soma resistivity in ohm-cm",
+      "help": "Enter soma resistivity in ohm-cm"
+    },
+    {
+      "label": "Soma capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter soma capacitive density in F/cm2",
+      "help": "Enter soma capacitive density in F/cm2"
+    },
+    {
+      "label": "Apical dendrite trunk length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 59.5,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite trunk length",
+      "help": "Enter apical dendrite trunk length in microns"
+    },
+    {
+      "label": "Apical dendrite trunk diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 4.25,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite trunk diameter in microns",
+      "help": "Enter apical dendrite trunk diameter in microns"
+    },
+    {
+      "label": "Apical dendrite trunk resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite trunk resistivity in ohm-cm",
+      "help": "Enter apical dendrite trunk resistivity in ohm-cm"
+    },
+    {
+      "label": "Apical dendrite trunk capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_trunk\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite trunk capacitive density in F/cm2",
+      "help": "Enter apical dendrite trunk capacitive density in F/cm2"
+    },
+    {
+      "label": "Apical dendrite length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 306.0,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite length",
+      "help": "Enter apical dendrite length in microns"
+    },
+    {
+      "label": "Apical dendrite diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 4.08,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite diameter in microns",
+      "help": "Enter apical dendrite diameter in microns"
+    },
+    {
+      "label": "Apical dendrite resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite resistivity in ohm-cm",
+      "help": "Enter apical dendrite resistivity in ohm-cm"
+    },
+    {
+      "label": "Apical dendrite capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical1\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite capacitive density in F/cm2",
+      "help": "Enter apical dendrite capacitive density in F/cm2"
+    },
+    {
+      "label": "Apical dendrite turf length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 238.0,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite turf length",
+      "help": "Enter apical dendrite turf length in microns"
+    },
+    {
+      "label": "Apical dendrite turf diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 3.4,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite turf diameter in microns",
+      "help": "Enter apical dendrite turf diameter in microns"
+    },
+    {
+      "label": "Apical dendrite turf resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite turf resistivity in ohm-cm",
+      "help": "Enter apical dendrite turf resistivity in ohm-cm"
+    },
+    {
+      "label": "Apical dendrite turf capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_turf\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter apical dendrite turf capacitive density in F/cm2",
+      "help": "Enter apical dendrite turf capacitive density in F/cm2"
+    },
+    {
+      "Label": "Oblique apical dendrite length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 238.0,
+      "component": "TextField",
+      "hintText": "Enter oblique apical dendrite length",
+      "help": "Enter oblique apical dendrite length in microns"
+    },
+    {
+      "label": "Oblique apical dendrite diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 3.91,
+      "component": "TextField",
+      "hintText": "Enter oblique apical dendrite diameter in microns",
+      "help": "Enter oblique apical dendrite diameter in microns"
+    },
+    {
+      "label": "Oblique apical dendrite resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter oblique apical dendrite resistivity in ohm-cm",
+      "help": "Enter oblique apical dendrite resistivity in ohm-cm"
+    },
+    {
+      "label": "Oblique apical dendrite capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"apical_oblique\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter oblique apical dendrite capacitive density in F/cm2",
+      "help": "Enter oblique apical dendrite capacitive density in F/cm2"
+    },
+    {
+      "label": "Basal dendrite 1 length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 85.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 1 length",
+      "help": "Enter basal dendrite 1 length in microns"
+    },
+    {
+      "label": "Basal dendrite 1 diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 4.25,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 1 diameter in microns",
+      "help": "Enter basal dendrite 1 diameter in microns"
+    },
+    {
+      "label": "Basal dendrite 1 resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 1 resistivity in ohm-cm",
+      "help": "Enter basal dendrite 1 resistivity in ohm-cm"
+    },
+    {
+      "label": "Basal dendrite 1 capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_1\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 1 capacitive density in F/cm2",
+      "help": "Enter basal dendrite 1 capacitive density in F/cm2"
+    },
+    {
+      "label": "Basal dendrite 2 length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 255.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 2 length",
+      "help": "Enter basal dendrite 2 length in microns"
+    },
+    {
+      "label": "Basal dendrite 2 diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 2.72,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 2 diameter in microns",
+      "help": "Enter basal dendrite 2 diameter in microns"
+    },
+    {
+      "label": "Basal dendrite 2 resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_2\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 2 resistivity in ohm-cm",
+      "help": "Enter basal dendrite 2 resistivity in ohm-cm"
+    },
+    {
+      "label": "Basal dendrite 2 capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"v\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 2 capacitive density in F/cm2",
+      "help": "Enter basal dendrite 2 capacitive density in F/cm2"
+    },
+    {
+      "label": "Basal dendrite 3 length",
+      "id": "netParams.cellParams.secs.geom.L",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"L\"]",
+      "field_type": "float",
+      "default": 255.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 3 length",
+      "help": "Enter basal dendrite 3 length in microns"
+    },
+    {
+      "label": "Basal dendrite 3 diameter",
+      "id": "netParams.cellParams.secs.geom.diam",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"diam\"]",
+      "field_type": "float",
+      "default": 2.72,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 3 diameter in microns",
+      "help": "Enter basal dendrite 3 diameter in microns"
+    },
+    {
+      "label": "Basal dendrite 3 resistivity",
+      "id": "netParams.cellParams.secs.geom.Ra",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"Ra\"]",
+      "field_type": "float",
+      "default": 200.0,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 3 resistivity in ohm-cm",
+      "help": "Enter basal dendrite 3 resistivity in ohm-cm"
+    },
+    {
+      "label": "Basal dendrite 3 capacitive density",
+      "id": "netParams.cellParams.secs.geom.cm",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"basal_3\"][\"geom\"][\"cm\"]",
+      "field_type": "float",
+      "default": 0.6195,
+      "component": "TextField",
+      "hintText": "Enter basal dendrite 3 capacitive density in F/cm2",
+      "help": "Enter basal dendrite 3 capacitive density in F/cm2"
+    }
+  ]
+}

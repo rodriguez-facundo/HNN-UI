@@ -1,0 +1,54 @@
+{
+  "id": "layer5",
+  "label": "Set input connection weights to layer 5 cells",
+  "component": "Container",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "pyrAMPA",
+      "label": "AMPA input connection weight to layer 5 pyr cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "AMPA input connection weight to layer 5 pyr cells in uS",
+      "help": "AMPA input connection weight to layer 5 pyr cells in uS"
+    },
+    {
+      "id": "pyrNMDA",
+      "label": "NMDA input connection weight to layer 5 pyr cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "NMDA input connection weight to layer 5 pyr cells in uS",
+      "help": "NMDA input connection weight to layer 5 pyr cells in uS"
+    },
+    {
+      "id": "basketAMPA",
+      "label": "AMPA input connection weight to layer 5 basket cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "AMPA input connection weight to layer 5 basket cells in uS",
+      "help": "AMPA input connection weight to layer 5 basket cells in uS"
+    },
+    {
+      "id": "basketNMDA",
+      "label": "NMDA input connection weight to layer 5 basket cells",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "NMDA input connection weight to layer 5 basket cells in uS",
+      "help": "NMDA input connection weight to layer 5 basket cells in uS"
+    },
+    {
+      "id": "delay",
+      "label": "Input connection delay to layer 5 cells",
+      "field_type": "float",
+      "default": 1.0,
+      "component": "TextField",
+      "hintText": "Input connection delay to layer 5 cells in uS",
+      "help": "Input connection delay to layer 5 cells in uS"
+    }
+  ]
+}

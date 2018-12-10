@@ -1,0 +1,27 @@
+{
+  "id": "timing",
+  "label": "Set input time parameters",
+  "component": "Thumbnail",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "start",
+      "label": "Set starting time",
+      "field_type": "float",
+      "default": 0.0,
+      "component": "TextField",
+      "hintText": "Set input start time in ms",
+      "help": "Set input start time in ms"
+    },
+    {
+      "id": "stop",
+      "label": "Set stop time",
+      "field_type": "float",
+      "default": -1.0,
+      "component": "TextField",
+      "hintText": "Set input stop time in ms",
+      "help": "Set input stop time in ms"
+    }
+  ]
+}

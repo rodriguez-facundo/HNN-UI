@@ -1,0 +1,45 @@
+{
+  "id": "toL2/3Pyr",
+  "label": "Connection weights to Layer 2/3 pyramidal cell",
+  "component": "Thumbnail",
+  "hintText": "",
+  "help": "",
+  "children": [
+    {
+      "id": "L2/3PyrAMPA",
+      "label": "AMPA connection weight from L2/3 pyr to L2/3 pyr",
+      "field_type": "float",
+      "default": 0.0005,
+      "component": "TextField",
+      "hintText": "AMPA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS",
+      "help": "AMPA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS"
+    },
+    {
+      "id": "L2/3PyrNMDA",
+      "label": "NMDA connection weight from L2/3 pyr to L2/3 pyr",
+      "field_type": "float",
+      "default": 0.0005,
+      "component": "TextField",
+      "hintText": "NMDA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS",
+      "help": "NMDA connection weight from L2/3 pyramidal cells to L2/3 pyramidal cells in uS"
+    },
+    {
+      "id": "L2/3BasketGABAA",
+      "label": "GABAA connection weight from L2/3 basket to L2/3 pyr",
+      "field_type": "float",
+      "default": 0.05,
+      "component": "TextField",
+      "hintText": "GABAA connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS",
+      "help": "GABAA connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS"
+    },
+    {
+      "id": "L2/3BasketGABAB",
+      "label": "GABAB connection weight from L2/3 basket to L2/3 pyr",
+      "field_type": "float",
+      "default": 0.05,
+      "component": "TextField",
+      "hintText": "GABAB connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS",
+      "help": "GABAB connection weight from L2/3 basket cells to L2/3 pyramidal cells in uS"
+    }
+  ]
+}

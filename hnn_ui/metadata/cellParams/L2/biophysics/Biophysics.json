@@ -1,0 +1,109 @@
+{
+  "id": "biophysics",
+  "label": "Biophysical cell properties",
+  "component": "BottomNavigationAction",
+  "hintText": "",
+  "help": "",
+  "children": [            
+    {
+      "label": "Soma potassium channel capacitance density (Km)",
+      "id": "netParams.cellParams.secs.mech.km.gbar",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"km\"][\"gbar\"]",
+      "field_type": "float",
+      "default": 250.0,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma voltage gated potassium channel capacitance density (Kv)",
+      "id": "netParams.cellParams.secs.mech.hh2.gkbar",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gkbar\"]",
+      "field_type": "float",
+      "default": 0.01,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma voltage gated sodium channel capacitance density",
+      "id": "netParams.cellParams.secs.mech.hh2.gnabar",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gnabar\"]",
+      "field_type": "float",
+      "default": 0.18,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Soma leak channel reversal potencial",
+      "id": "netParams.cellParams.secs.mech.hh2.el",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"el\"]",
+      "field_type": "float",
+      "default": -65,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "Soma leak channel capacitance density",
+      "id": "netParams.cellParams.secs.mech.hh2.gl",
+      "path": "netParams.cellParams[\"L2Pyr_rule\"][\"secs\"][\"soma\"][\"mechs\"][\"hh2\"][\"gl\"]",
+      "field_type": "float",
+      "default": 0.0000426,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrite potassium channel capacitance density (Km)",
+      "id": "all dendrites share this property in netpyne",
+      "path": "this prop goes to multiple paths",
+      "field_type": "float",
+      "default": 250.0,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"                
+    },
+    {
+      "label": "Dendrites voltage gated potassium channel capacitance density (Kv)",
+      "id": "all dendrites share this property in netpyne",
+      "path": "this prop goes to multiple paths",
+      "field_type": "float",
+      "default": 0.01,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrites Voltage gated sodium channel capacitance density (Na)",
+      "id": "all dendrites share this property in netpyne",
+      "path": "this prop goes to multiple paths",
+      "field_type": "float",
+      "default": 0.15,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    },
+    {
+      "label": "Dendrites leak current reversal potencial",
+      "id": "all dendrites share this property in netpyne",
+      "path": "this prop goes to multiple paths",
+      "field_type": "float",
+      "default": -65.0,
+      "component": "TextField",
+      "hintText": "Reversal potencial in mV",
+      "help": "Reversal potencial in mV"
+    },
+    {
+      "label": "Dendrite leak current channel capacitance density",
+      "id": "netParams.cellParams.secs.mechs.hh2.gl",
+      "path": "this prop goes to multiple paths",
+      "field_type": "float",
+      "default": 0.0000426,
+      "component": "TextField",
+      "hintText": "Channel capacitance density in S/cm2",
+      "help": "Channel capacitance density in S/cm2"
+    }
+  ]
+}
