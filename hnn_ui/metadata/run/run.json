@@ -1,0 +1,42 @@
+{
+  "id": "run",
+  "label": "Simulation parameters",
+  "children": [            
+    {
+      "id": "simParams.duration",
+      "path": "simConfig.duration",
+      "field_type": "float",
+      "default": 250.0,
+      "component": "TextField",
+      "hintText": "Simulation duration (ms)",
+      "help": "Total simulation time in miliseconds"
+    },
+    {
+      "id": "simParams.dt",
+      "path": "simConfig.dt",
+      "field_type": "float",
+      "default": 0.025,
+      "component": "TextField",
+      "hintText": "Integration timestep (ms)",
+      "help": "Simulation integration timestep in miliseconds"
+    },
+    {
+      "id": "simParams.celsius",
+      "path": "simConfig.celsius",
+      "field_type": "float",
+      "default": 37.0,
+      "component": "TextField",
+      "hintText": "Temperature (C)",
+      "help": "Simulation temperature in celsius degrees"
+    },
+    {
+      "id": "simParams.celsius",
+      "path": "simConfig.celsius",
+      "field_type": "float",
+      "default": 37.0,
+      "component": "TextField",
+      "hintText": "Temperature (C)",
+      "help": "Simulation temperature in celsius degrees"
+    }
+  ]
+}
