@@ -1,39 +1,33 @@
-## Class for authenticating users.
-#  
-#  This should be a class with the following form:
-#  
-#  - constructor takes one kwarg: `config`, the IPython config object.
-#  
-#  with an authenticate method that:
-#  _class
-#  - is a coroutine (asyncio or tornado)
-#  - returns username on success, None on failure
-#  - takes two arguments: (handler, data),
-#    where `handler` is the calling web.RequestHandler,
-#    and `data` is the POST form data from the login page.
-#c.JupyterHub.authenticator_class = 'jupyterhub.auth.PAMAuthenticator'
-# c.JupyterHub.authenticator_class = 'dummyauthenticator.DummyAuthenticator'
-# c.DummyAuthenticator.password = "dummypassword"
+import os
+import socket
+
 c.JupyterHub.extra_log_file = '/var/log/jupyterhub.log'
-c.JupyterHub.authenticator_class = 'tmpauthenticator.TmpAuthenticator'
 
-## The class to use for spawning single-user servers.
-#  
-#  Should be a subclass of Spawner.
-#c.JupyterHub.spawner_class = 'jupyterhub.spawner.LocalProcessSpawner'
-c.JupyterHub.spawner_class = 'dockerspawner.DockerSpawner'
-from jupyter_client.localinterfaces import public_ips
-ip = public_ips()[0]
-c.JupyterHub.hub_ip = ip
-c.DockerSpawner.image = 'hnn_ui_jupyterspawner'
-c.DockerSpawner.remove_containers = True
-c.DockerSpawner.remove = True
-c.DockerSpawner.debug = True
-c.DockerSpawner.network_name='jupyterhub_network'
+c.JupyterHub.spawner_class = 'kubespawner.KubeSpawner'
 
-## Extra arguments to be passed to the single-user server. Only works for the LocalProcessSpawner
-#  
-#  Some spawners allow shell-style expansion here, allowing you to use
-#  environment variables here. Most, including the default, do not. Consult the
-#  documentation for your spawner to verify!
-# c.Spawner.args = ['--library=hnn_ui', '--NotebookApp.default_url=/geppetto', '--NotebookApp.token=''']
+c.JupyterHub.ip = '0.0.0.0'
+c.JupyterHub.hub_ip = '0.0.0.0'
+
+# First pulls can be really slow, so let's give it a big timeout
+c.KubeSpawner.start_timeout = 60 * 5
+
+# Our simplest user image! Optimized to just... start, and be small!
+c.KubeSpawner.image_spec = 'hnn_ui_jupyterspawner'
+
+# Find the IP of the machine that minikube is most likely able to talk to
+# Graciously used from https://stackoverflow.com/a/166589
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.connect(("8.8.8.8", 80))
+host_ip = s.getsockname()[0]
+s.close()
+
+c.KubeSpawner.hub_connect_ip = host_ip
+c.JupyterHub.hub_connect_ip = c.KubeSpawner.hub_connect_ip
+
+c.KubeSpawner.service_account = 'default'
+# Do not use any authentication at all - any username / password will work.
+c.JupyterHub.authenticator_class = 'dummyauthenticator.DummyAuthenticator'
+
+c.KubeSpawner.storage_pvc_ensure = False
+
+c.JupyterHub.allow_named_servers = True
