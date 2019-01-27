@@ -1,16 +1,8 @@
 version: '1.0'
 steps:
-  BuildingDockerImage:
-    title: Building Docker Image
-    type: build
-    image_name: hnn
-    working_directory: ./
-    no_cache: true
-    no_cf_cache: true
-    tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
-    dockerfile: Dockerfile_dev
   installing_chart:
-    image: 'codefresh/cfstep-helm:2.12.1'
+    image: codefresh/cfstep-helm
+    tag: 2.12.1
     title: Installing chart
     environment:
       - CHART_NAME=jupyterhub
