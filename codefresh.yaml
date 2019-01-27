@@ -4,6 +4,7 @@ steps:
     image: codefresh/cfstep-helm
     tag: 2.12.1
     title: Installing chart
+    working_directory: ./
     environment:
       - CHART_NAME=jupyterhub
       - RELEASE_NAME=jupyterhub
@@ -12,7 +13,7 @@ steps:
       - TILLER_NAMESPACE=kube-system
       - CHART_VERSION=0.8-ff69a77
       - 'CHART_REPO_URL=https://jupyterhub.github.io/helm-chart/'
-      - VALUESFILE_values=./values.yaml
+      - VALUESFILE_values=values.yaml
       - 'CF_CTX_jupyterhub_helm_URL=https://jupyterhub.github.io/helm-chart/'
       - HELM_REPO_USE_HTTP=false
       - HELM_REPO_CONTEXT_PATH=
