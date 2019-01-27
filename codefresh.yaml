@@ -9,3 +9,18 @@ steps:
     no_cf_cache: true
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
     dockerfile: Dockerfile_dev
+  installing_chart:
+    image: 'codefresh/cfstep-helm:2.12.1'
+    title: Installing chart
+    environment:
+      - CHART_NAME=jupyterhub
+      - RELEASE_NAME=jupyterhub
+      - KUBE_CONTEXT=standard-cluster-2@HNN-project
+      - NAMESPACE=hnn
+      - TILLER_NAMESPACE=kube-system
+      - CHART_VERSION=0.8-ff69a77
+      - 'CHART_REPO_URL=https://jupyterhub.github.io/helm-chart/'
+      - VALUESFILE_values=./values.yaml
+      - 'CF_CTX_jupyterhub_helm_URL=https://jupyterhub.github.io/helm-chart/'
+      - HELM_REPO_USE_HTTP=false
+      - HELM_REPO_CONTEXT_PATH=
