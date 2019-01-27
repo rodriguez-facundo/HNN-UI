@@ -1,0 +1,14 @@
+FROM metacell/jupyter-neuron:latest
+
+ARG hnnuiBranch=feature-jupyterhub_hnn
+
+RUN echo $hnnuiBranch
+
+# Clone HNN-UI and install the development version
+RUN git clone --depth 1 -b $hnnuiBranch https://github.com/MetaCell/HNN-UI &&\
+  cd HNN-UI/utilities &&\
+  python install.py branch $hnnuiBranch
+
+WORKDIR $HOME/HNN-UI
+
+CMD /bin/bash -c "jupyter notebook --debug --NotebookApp.default_url=/geppetto --NotebookApp.token='' --library=hnn_ui"
