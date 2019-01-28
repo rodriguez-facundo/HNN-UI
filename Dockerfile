@@ -6,7 +6,7 @@ USER $NB_USER
 
 ARG hnnuiBranch=development
 ENV hnnuiBranch=${hnnuiBranch}
-RUN echo "$hnnuiBranch";
+RUN echo $hnnuiBranch
 
 ARG INCUBATOR_VER=unknown
 RUN /bin/bash -c "INCUBATOR_VER=${INCUBATOR_VER} source activate snakes && pip install netpyne_ui"
