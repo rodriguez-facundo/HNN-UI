@@ -18,4 +18,4 @@ WORKDIR /home/jovyan/work
 RUN wget https://github.com/MetaCell/HNN-UI/archive/$hnnuiBranch.zip -q
 RUN unzip $hnnuiBranch.zip
 WORKDIR /home/jovyan/work/HNN-UI-$hnnuiBranch/utilities
-CMD /bin/bash -c "exec jupyter notebook --NotebookApp.default_url=/geppetto --NotebookApp.token='' --library=hnn_ui"
+CMD /bin/bash -c "exec jupyter notebook --NotebookApp.default_url=/geppetto --NotebookApp.token='' --library=hnn_ui "
